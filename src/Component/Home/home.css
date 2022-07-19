@@ -1,0 +1,30 @@
+.home-view{
+    display: flex;
+    flex-direction: column;
+}
+
+.home-grid{
+    display: flex;
+}
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1.5fr;
+    grid-template-rows: .3fr 4fr 3fr;
+    grid-template-areas: 
+    "sidebar midnav menu"
+    "sidebar midnav menu"
+    "sidebar midnav menu";
+    padding: 0 3.8rem;
+}
+
+.side-bar{
+    grid-area: sidebar;
+}
+
+.mid-nav{
+    grid-area: midnav;
+}
+
+.menu-bar{
+    grid-area: menu;
+}

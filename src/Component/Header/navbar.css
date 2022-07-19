@@ -1,0 +1,98 @@
+.navbar{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    max-width: 100%;
+}
+
+.nav-tab{
+    display: flex;
+    margin-right: 6rem;
+}
+
+.nav-tab > button{
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-tab > button:focus{
+    outline: none;
+}
+
+.nav-tab h5{
+    padding: 0;
+    margin: 0;
+    color: #008080;
+    font-size: 12px;
+}
+
+.nav-tab i{
+    color: #008080;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+.search-box{
+    display: grid;
+    margin-right: 3rem;
+    grid-template-columns: .001fr .001fr;
+    padding: 5px 0px 5px 60px ;
+}
+
+.search-box > input{
+    padding: 8px 50px 8px 5px;
+    background-color: #EEF3F8;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.search-box > input:focus{
+    outline: none;
+}
+
+.search-box button{
+    padding: 8px 5px 8px 7px;
+    background-color: #EEF3F8;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.menu-tab button{
+    margin-left: 20px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu-tab h5{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    color: #008080;
+}
+
+.menu-tab i{
+    font-size: 20px;
+    padding-bottom: 5px;
+    color: #008080;
+}
+
+.menu-tab{
+    display: flex;
+    margin-right: 6rem;
+    padding: 0;
+    max-width: 100%;
+    justify-content: center;
+}
+
+.menu-tab > button:focus{
+    outline: none;
+}
+

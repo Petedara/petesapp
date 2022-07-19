@@ -1,0 +1,117 @@
+.menu{
+    background-color:white;
+    margin: .5rem;
+    border-radius: 10px;
+}
+
+.menu-menu{
+    margin: 10px;
+    padding: 10px;
+}
+
+.created-menu{
+    padding: 10px;
+}
+
+.menu-head >p{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.menu-head > div> div > p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.menu-item > p{
+    padding: 5px 0px 0px 2px;
+    margin:2px
+}
+
+.menu-items{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    margin-bottom: .5rem;
+}
+
+.menu-icon i{
+    font-size: 26px;
+    color: #E4AEC5;
+}
+
+.menu-details p{
+    margin: 0;
+    padding: 0;
+    color: #446A46;
+    font-weight: bold;
+}
+
+.menu-details small{
+    color: #82A284;
+}
+
+.menu-item{
+    padding: 5px;
+}
+
+.small{
+    margin:4px;
+}
+
+.menu-item:hover{
+    border-radius: 10px;
+    background-color: #FFC4DD;
+}
+
+.create-menu{
+    border: 0.5px solid #bebebe;
+    border-radius: 10px;
+}
+
+.create-menu >p{
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    margin: 1px;
+    padding: 5px;
+    border-bottom: 1px solid #bebebe;
+}
+
+.create-menu-list{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "Post Status Event"
+    "Ad Forum Room";
+}
+
+.create-menu-list> p{
+    margin: 10px 2.5px;
+
+}
+
+.post{
+    grid-area: Post;
+}
+
+.status{
+    grid-area: Status;
+}
+
+.event{
+    grid-area: Event;
+}
+
+.ad{
+    grid-area: Ad;
+}
+
+.forum{
+    grid-area: Forum;
+}
+
+.room{
+    grid-area: Room;
+}
