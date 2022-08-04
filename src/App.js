@@ -4,17 +4,15 @@
 // import Product from './Component/Home/Product/Product';
 // import Midnav from './Component/Home/Midnav/Midnav';
 import Home from './Component/Home/Home';
+// import Newpost from './Component/Newsfeed/Post/Post';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/>
-      <Sidebar />
-      <Menu /> */}
-      {/* <Product /> */}
-      {/* <Midnav /> */}
       <Home />
+      {/* <Newpost name="Afolayan Peter O." /> */}
+      {/* <Newpost name="Afolabi Opeyemi J." /> */}
     </div>
   );
 }

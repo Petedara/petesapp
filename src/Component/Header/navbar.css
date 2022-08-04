@@ -6,9 +6,24 @@
     max-width: 100%;
 }
 
+.project-logo img{
+    width: 40px;
+    height: 40px;
+    margin: 0 2rem;
+}
+
+.my-profile-photo{
+    display: none;
+}
+
+.nav-area{
+    display: flex;
+    justify-content: space-around;
+}
+
 .nav-tab{
     display: flex;
-    margin-right: 6rem;
+    margin-right: 10rem;
 }
 
 .nav-tab > button{
@@ -43,6 +58,10 @@
     padding: 5px 0px 5px 60px ;
 }
 
+.search-box h5{
+    display: none;
+}
+
 .search-box > input{
     padding: 8px 50px 8px 5px;
     background-color: #EEF3F8;
@@ -61,10 +80,11 @@
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border: none;
+    cursor: pointer;
 }
 
 .menu-tab button{
-    margin-left: 20px;
+    /* margin-left: 20px; */
     background-color: transparent;
     border: none;
     text-align: center;
@@ -96,3 +116,310 @@
     outline: none;
 }
 
+.my-profile-picture{
+    display: none;
+}
+
+@media screen and (max-width: 1109px){
+    .nav-tab{
+        margin: 0;
+    }
+
+    .menu-tab button{
+        margin: 0 0 0 20px;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .navbar{
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 0 0 22px;
+    }
+
+    .project-logo{
+        padding: 5px;
+    }
+
+    .project-logo img{
+        margin: 0 3rem 0 0rem;
+    }
+
+    .nav-tab{
+        border-right: 1px solid rgba(0, 0, 0, .5);
+        margin-right: 2rem;
+        padding-right: 5rem;
+    }
+
+    .search-box{
+        margin-right: 0;
+        padding: 0;
+    }
+
+    .search-box button{
+        background-color: transparent;
+    }
+
+    .search-box h5{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        font-size: 12px;
+        color: #008080;
+    }
+
+    .search-box i{
+        font-size: 20px;
+        padding-bottom: 5px;
+        color: #008080;
+    }
+
+    .search-box input{
+        display: none;
+    }
+
+    .my-profile-picture{
+        display: inline-block;
+        padding: 5px;
+    }
+
+    .my-profile-picture img{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width:888px) {
+    .menu-tab button{
+        margin: 0;
+    }
+    
+    .my-profile-picture{
+        position: relative;
+        right: 20px;
+    }
+}
+
+@media screen and (max-width:830px) {
+    .my-profile-picture{
+        position: relative;
+        right: 30px;
+    }
+
+    .nav-tab{
+        margin-right: 1.5rem;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width:815px) {
+    .my-profile-picture{
+        position: relative;
+        right: 35px;
+    }
+
+    .nav-tab{
+        margin-right: 1rem;
+        padding-right: 3rem;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .nav-tab{
+        margin-right: 1rem;
+        padding-right: 2.5rem;
+    }
+}
+
+@media screen and (max-width:760px) {
+    .nav-tab{
+        margin-right: .5rem;
+        padding-right: 2.5rem;
+    }
+
+    .my-profile-picture{
+        position: relative;
+        right: 40px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .project-logo{
+        display: none;
+    }
+    .my-profile-picture{
+        display: none;
+    }
+
+    .my-profile-photo{
+        display: inline-block;
+        padding:  5px;
+        margin: 0 15px 0 0;
+    }
+
+    .my-profile-photo img{
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .search-box{
+    padding: 10px 0 ;
+    }
+
+    .search-box button{
+        padding: 8px 5px 8px 7px;
+        background-color: #EEF3F8;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .search-box i{
+        font-size: 13px;
+        color: #000000;
+    }
+
+    .search-box >input{
+        padding: 8px 50px 8px 5px ;
+        width: 450px;
+        display: inline-block;
+    }
+
+    .search-box h5{
+        display: none;
+    }
+
+    .nav-tab{
+        position: relative;
+        right: 10px;
+        border-right: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bottom-navtab{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .search-box >input{
+        width: 374px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .search-box >input{
+        width: 358px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .search-box >input{
+        width: 342px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .search-box >input{
+        width: 326px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .nav-tab{
+        position: relative;
+        right: 15px;
+    }
+
+    .search-box >input{
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .nav-tab{
+        position: relative;
+        right: 14px;
+    }
+
+    .search-box >input{
+        width: 294px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .search-box >input{
+        width: 278px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .search-box >input{
+        width: 262px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .search-box >input{
+        width: 246px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .search-box >input{
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .search-box >input{
+        width: 214px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .search-box >input{
+        width: 198px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .search-box >input{
+        width: 182px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .search-box >input{
+        width: 166px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .search-box >input{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    .search-box >input{
+        width: 134px;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    .search-box >input{
+        width: 118px;
+    }
+}

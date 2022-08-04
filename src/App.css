@@ -1,5 +1,6 @@
 .App {
   /* text-align: center; */
-  display: grid;
-  grid-template-rows: .01fr 1fr;
+  /* display: grid;
+  grid-template-rows: .01fr 1fr; */
+  display: flex
 }

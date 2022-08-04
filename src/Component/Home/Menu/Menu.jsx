@@ -36,7 +36,7 @@ export default function Menu(){
                     <div className='menu-head'>
                         <p>Social</p>
                         <div>
-                        <div className='menu-items menu-item'>
+                            <div className='menu-items menu-item'>
                                 <div className="menu-icon">
                                     <i className="fa-regular fa-pen-to-square"></i>
                                 </div>

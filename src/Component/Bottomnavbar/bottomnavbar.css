@@ -1,0 +1,29 @@
+.base-nav-tab{
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-nav-tab{
+    /* margin-left: 20px; */
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom-nav-tab:focus{
+    outline: none;
+}
+
+.bottom-nav-tab h5{
+    padding: 0;
+    margin: 0;
+    color: #008080;
+    font-size: 12px;
+}
+
+.bottom-nav-tab i{
+    color: #008080;
+    font-size: 20px;
+    padding-bottom: 5px;
+}

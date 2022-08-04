@@ -22,7 +22,7 @@ export default function Product(props) {
         <img
           src={Foodvendor}
           alt="Profile-photograph"
-          style={{ width: "50px", height: "50px", borderRadius: "100%" }}
+          style={{ width: "45px", height: "45px", borderRadius: "100%" }}
         />
         <div className="vendors-name">
           <strong>{vendorsName}</strong>
@@ -45,7 +45,7 @@ export default function Product(props) {
             {
               <ResponsiveEllipsis
                 text={cName}
-                maxLine="2"
+                maxLine={2}
                 ellipsis="..."
                 lineHeight="40"
                 trimRight

@@ -1,30 +1,100 @@
 .home-view{
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
-.home-grid{
-    display: flex;
-}
 .home-grid{
     display: grid;
     grid-template-columns: 1fr 4fr 1.5fr;
-    grid-template-rows: .3fr 4fr 3fr;
-    grid-template-areas: 
-    "sidebar midnav menu"
-    "sidebar midnav menu"
-    "sidebar midnav menu";
-    padding: 0 3.8rem;
+    grid-template-areas: "sidebar midnav menu";
+    padding: 0 1rem;
+    margin: 0 .5rem;
 }
 
-.side-bar{
+.side-bar{  
     grid-area: sidebar;
+}
+
+.navbar-container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.sidebar-container{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 65px;
 }
 
 .mid-nav{
     grid-area: midnav;
+    margin: 60px 0 0px 9px;
 }
 
 .menu-bar{
     grid-area: menu;
+}
+
+.menubar-container{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 60px;
+    bottom: 50px;
+}
+
+@media screen and (max-width:1337px) {
+    .home-grid{
+        display: grid;
+        grid-template-columns: 1fr 4fr 2fr;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .home-grid{
+        display: flex;
+    }
+    
+    .menu-bar{
+        display:none
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .home-grid{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .side-bar{
+        display: none;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .home{
+        overflow-x: hidden;
+    }
+   
+    .navbar-container{
+        position: fixed;
+        top: 0;
+        z-index: 999;
+    }
+
+    .mid-nav{
+        margin: 60px 0 41px 9px;
+    }
+
+    .base-navbar-container{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+    }
 }
