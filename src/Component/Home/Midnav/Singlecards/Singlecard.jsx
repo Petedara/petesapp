@@ -22,7 +22,7 @@ const Singlecard = () =>{
                     </div>
                     <p>Explore now</p>
                 </nav>
-                <nav className="singlecard">
+                <nav className="singlecard last-lone-card">
                     <strong>Top selling items</strong>
                     <div className="featured-images">
                         <img src={Featuredimage1} alt=""/>

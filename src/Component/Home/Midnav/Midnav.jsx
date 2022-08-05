@@ -14,11 +14,15 @@ export default function Midnav(){
             </div>
             <div className="cards">
                 <Singlecard />
-                <Widgetcard />
                 <Singlecard />
                 <Widgetcard />
                 <Singlecard />
+                <Singlecard />
                 <Widgetcard />
+                <Singlecard />
+                <Singlecard />
+                <Widgetcard />
+                <Singlecard />
                 <Singlecard />
                 <Widgetcard />
             </div>
